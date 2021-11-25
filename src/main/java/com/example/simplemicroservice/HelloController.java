@@ -13,7 +13,7 @@ public class HelloController {
 
     @GetMapping("/greet")
 	public String greet() {
-		return "Greetings!!";
+		return "Greetings!! from GKE cluster...";
 	}
 
 }
